@@ -31,13 +31,13 @@ function isNotStone (upOrDown)
 	
 	if upOrDown == 1 then
 		if r.compareUp() then
-			return true
+			return false
 		end
 	end
 	
 	if upOrDown == 2 then
 		if r.compareDown() then
-			return true
+			return false
 		end
 	end
 	
