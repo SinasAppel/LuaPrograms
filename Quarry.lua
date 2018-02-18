@@ -41,7 +41,7 @@ function isNotStone (upOrDown)
 		end
 	end
 	
-	return false
+	return true
 end
 
 -- Moves and digs the robot 16 places
